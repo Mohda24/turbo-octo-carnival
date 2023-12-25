@@ -1,0 +1,68 @@
+@media  (max-width: 767px) {
+    .main{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    body{
+        font-size: 15px;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .main section{
+        gap: 15px;
+        padding: 20px 10px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    aside{
+        padding: .9375rem 2rem;
+        gap: 10px;
+
+    }
+    aside .cart .logo{
+        gap: 10px;
+    }
+    .paragraph p{
+        font-size: 14px;
+        
+    }
+    section .result{
+        width: 9rem;
+    height: 9rem;
+    }
+    
+}
+@media  (max-width: 391px){
+    body{
+        font-size: 14px;
+    }
+    .main section{
+        gap: 10px;
+        padding-top:15px ;
+    }
+    button{
+        margin-top: 1rem;
+    }
+    section .result{
+        width: 8rem;
+    height: 8rem;
+    }
+    section .result h1{
+        font-size: 50px;
+    }
+    aside{
+        padding-top: 0;
+    }
+    
+    aside h1{
+    margin-top: 1rem;
+    }
+    section .paragraph h3{
+    font-size: 1.2rem;
+    }
+
+
+
+    }
